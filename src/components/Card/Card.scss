@@ -1,0 +1,70 @@
+@use '../../styles/variables';
+
+.cards {
+  display: flex;
+  padding: 2em;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px variables.$colorShadow;
+  width: 80%;
+  margin-top: 3em;
+}
+
+.jobs-info {
+  display: flex;
+  flex-direction: column;
+}
+.name-business {
+  color: variables.$color;
+  font-weight: bolder;
+  padding-left: 1em;
+}
+
+.name-work {
+  font-weight: bolder;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+}
+.tags-name {
+  padding: 0.8em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #ecf7f8;
+  color: variables.$color;
+}
+
+.role {
+  padding: 0.8em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #ecf7f8;
+  color: variables.$color;
+}
+
+.level {
+  padding: 0.8em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #ecf7f8;
+  color: variables.$color;
+}
+//TODO: Essayez de voir pour réduire les répétitions
+
+.created-at {
+  display: flex;
+}
